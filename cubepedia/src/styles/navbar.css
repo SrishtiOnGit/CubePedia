@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+  width: 100%;
+  position: sticky;
+  border: 1px solid var(--border);
+  background-color: var(--bg-secondary);
+}
+
+.nav-logo {
+  width: 100px;
+}
+
+.nav-title {
+  color: var(--text);
+  font-weight: 600;
+  margin-left: -260px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.nav-list li a:hover {
+  color: var(--primary);
+}
