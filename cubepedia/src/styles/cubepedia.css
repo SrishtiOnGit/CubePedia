@@ -1,0 +1,27 @@
+.cubepedia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  width: 80%;
+  margin: 100px auto;
+}
+
+.cubepedia-content {
+  flex: 1;
+}
+
+.cubepedia-content h1 {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.cubepedia-content p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+
+.cubepedia img {
+  width: 320px;
+  border-radius: 20px;
+}
