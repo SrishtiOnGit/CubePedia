@@ -1,0 +1,32 @@
+.why {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+  width: 100%;
+  position: sticky;
+  border: 1px solid var(--border);
+  background-color: var(--bg-secondary);
+}
+
+.why img {
+  width: 320px;
+  border-radius: 20px;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+  margin-right: 10px;
+}
+
+.why-text {
+  flex: 1;
+}
+
+.why-text h1 {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.why-text p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+}

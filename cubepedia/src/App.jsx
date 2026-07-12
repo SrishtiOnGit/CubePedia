@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import CubePedia from "./components/whatscubepedia";
+import Features from "./components/features";
+import WHY from "./components/why";
 
 const HomePage = () => {
   return (
@@ -10,6 +12,8 @@ const HomePage = () => {
       <Navbar />
       <Hero />
       <CubePedia />
+      <WHY />
+      <Features />
     </div>
   );
 };

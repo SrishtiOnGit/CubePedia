@@ -5,7 +5,7 @@ const CubePedia = () => {
   return (
     <div className="cubepedia">
       <div className="cubepedia-content">
-        <h1>What is CubePedia</h1>
+        <h1>What is CubePedia ?</h1>
 
         <p>
           CubePedia is a digital encyclopedia dedicated to the world of Rubik's
