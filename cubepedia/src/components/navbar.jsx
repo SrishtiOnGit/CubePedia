@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar" data-aos="fade-up">
       <img src={Logo} alt="logo" className="nav-logo" />
       <h1 className="nav-title">CubePedia</h1>
 

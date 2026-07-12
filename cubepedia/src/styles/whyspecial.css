@@ -1,4 +1,4 @@
-.features {
+.whyspecial {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,21 +9,21 @@
   padding: 2rem;
 }
 
-.features h1 {
-  font-size: 4rem;
+.whyspecial h1 {
+  font-size: 3rem;
   margin-bottom: 5rem;
   color: var(--title);
   text-shadow: 3px 3px 5px black;
 }
 
-.features-container {
+.whyspecial-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
 }
 
-.feature {
+.special {
   max-width: 500px;
   margin: 0 auto;
   line-height: 1.8;
@@ -38,25 +38,19 @@
   transition: var(--transition);
 }
 
-.feature:hover {
+.special:hover {
   background-color: var(--surface-hover);
   box-shadow: var(--shadow-lg);
 }
 
-.feature h2 {
+.special h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   color: var(--title);
 }
 
-.feature p {
+.special p {
   font-size: 1.2rem;
   line-height: 1.5;
   color: var(--text-secondary);
-}
-
-.feature img {
-  width: 100px;
-  height: 100px;
-  margin-bottom: 1rem;
 }

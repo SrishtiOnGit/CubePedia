@@ -24,7 +24,7 @@ const Features = () => {
     },
   ];
   return (
-    <div className="features">
+    <div className="features" data-aos="fade-up">
       <h1>Features</h1>
       <div className="features-container">
         {features.map((feature, index) => (

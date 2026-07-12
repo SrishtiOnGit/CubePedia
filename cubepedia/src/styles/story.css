@@ -1,0 +1,30 @@
+.story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  width: 100%;
+  margin: 100px auto;
+  background-color: var(--accent);
+  height: 50vh;
+  padding: 2rem 6rem;
+}
+
+.story-text {
+  flex: 1;
+}
+
+.story-text h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.story-text p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+
+.story img {
+  width: 320px;
+  border-radius: 20px;
+}

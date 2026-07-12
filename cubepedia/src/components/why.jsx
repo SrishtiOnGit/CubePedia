@@ -3,7 +3,7 @@ import "../styles/why.css";
 
 const WHY = () => {
   return (
-    <div className="why">
+    <div className="why" data-aos="fade-up">
       <div className="why-text">
         <h1>Why CubePedia?</h1>
         <p>

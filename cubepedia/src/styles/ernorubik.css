@@ -1,0 +1,33 @@
+.rubik {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  padding: 5rem 10%;
+}
+
+.rubik-text {
+  flex: 1;
+  text-align: left;
+}
+
+.rubik-title {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  color: var(--title);
+  text-shadow: 3px 3px 5px black;
+}
+
+.rubik-text p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
+.rubik img {
+  width: 320px;
+  border-radius: 20px;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+  margin-right: 10px;
+}

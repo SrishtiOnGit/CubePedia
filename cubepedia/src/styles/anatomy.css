@@ -1,0 +1,56 @@
+.anatomy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: var(--text);
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--secondary);
+}
+
+.anatomy h1 {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  color: var(--title);
+  text-shadow: 3px 3px 5px black;
+}
+
+.anatomy-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  width: 90%;
+  max-width: 1400px;
+}
+
+.anatomy-item {
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--bg-secondary);
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.anatomy-item img {
+  width: 180px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.anatomy-item h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--title);
+  text-shadow: 3px 3px 5px black;
+}
+
+.anatomy-item p {
+  font-size: 1.4rem;
+  color: var(--text-muted);
+}

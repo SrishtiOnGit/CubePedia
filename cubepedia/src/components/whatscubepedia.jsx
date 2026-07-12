@@ -3,7 +3,7 @@ import "../styles/cubepedia.css";
 
 const CubePedia = () => {
   return (
-    <div className="cubepedia">
+    <div className="cubepedia" data-aos="fade-up">
       <div className="cubepedia-content">
         <h1>What is CubePedia ?</h1>
 
