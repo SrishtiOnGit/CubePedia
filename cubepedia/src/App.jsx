@@ -9,6 +9,9 @@ import CubePedia from "./components/whatscubepedia";
 import Features from "./components/features";
 import WHY from "./components/why";
 import AboutCube from "./pages/about";
+import Champions from "./pages/champions";
+import CubeHardware from "./pages/cubehardware";
+import Popular from "./pages/popular";
 
 const HomePage = () => {
   return (
@@ -36,6 +39,9 @@ const App = () => {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/about" element={<AboutCube />} />
+      <Route path="/champions" element={<Champions />} />
+      <Route path="/cubehardware" element={<CubeHardware />} />
+      <Route path="/popular" element={<Popular />} />
     </Routes>
   );
 };

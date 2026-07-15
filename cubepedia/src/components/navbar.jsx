@@ -19,7 +19,7 @@ const Navbar = () => {
           <Link to="/champions">Champions</Link>
         </li>
         <li className="nav-item">
-          <Link to="/hardware">Cube Hardware</Link>
+          <Link to="/cubehardware">Cube Hardware</Link>
         </li>
         <li className="nav-item">
           <Link to="/popular">Popular Cubes</Link>

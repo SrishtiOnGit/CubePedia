@@ -1,0 +1,22 @@
+.legacy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  color: var(--text);
+  text-align: center;
+  padding: 2rem;
+}
+
+.legacy h1 {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  color: var(--title);
+  text-shadow: 3px 3px 5px black;
+}
+
+.legacy p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: var(--text);
+}

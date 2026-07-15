@@ -1,0 +1,53 @@
+.more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: var(--text);
+  text-align: center;
+  padding: 2rem;
+}
+
+.more h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--title);
+  text-shadow: 3px 3px 5px black;
+}
+
+.morechampions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: var(--text);
+  text-align: center;
+  padding: 2rem;
+  max-width: 500px;
+}
+
+.champion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: var(--text);
+  text-align: center;
+  padding: 2rem;
+}
+
+.champion img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.champion p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+}

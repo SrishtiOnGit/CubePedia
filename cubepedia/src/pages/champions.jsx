@@ -1,32 +1,30 @@
-import "../styles/about.css";
-import ErnoRubik from "../components/ernorubik";
-import Story from "../components/story";
-import WhySpecial from "../components/whyspecial";
-import Anatomy from "../components/anatomy";
-import DidYouKnow from "../components/diduknow";
-import Logo from "../assets/logo.png";
+import "../styles/champion.css";
+import Featured from "../components/featuredchampion";
+import More from "../components/morechampions";
+import Famous from "../components/famoussolves";
+import Legacy from "../components/legacy";
 import { Link } from "react-router-dom";
+import Logo from "../assets/logo.png";
 
-const AboutCube = () => {
+const Champions = () => {
   return (
-    <div className="cube-continer">
-      <div className="aboutcube">
+    <div>
+      <div className="champions">
         <h1>
-          About <span>Rubik's Cube</span>
+          The Legends of <span>SpeedCubing</span>
         </h1>
       </div>
-      <ErnoRubik />
-      <Story />
-      <WhySpecial />
-      <Anatomy />
-      <DidYouKnow />
+      <Featured />
+      <More />
+      <Famous />
+      <Legacy />
       <footer className="about-footer">
         <img src={Logo} alt="logo" />
         <h1>CubePedia</h1>
 
         <ul>
           <li>
-            <Link to="/champions">Champions</Link>
+            <Link to="/about">About Cube</Link>
           </li>
           <li>
             <Link to="/cubehardware">Cube Hardware</Link>
@@ -47,4 +45,4 @@ const AboutCube = () => {
   );
 };
 
-export default AboutCube;
+export default Champions;
