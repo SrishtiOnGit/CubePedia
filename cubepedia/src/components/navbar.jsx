@@ -25,9 +25,6 @@ const Navbar = () => {
           <Link to="/popular">Popular Cubes</Link>
         </li>
         <li className="nav-item">
-          <Link to="/library">Algorithm library</Link>
-        </li>
-        <li className="nav-item">
           <Link to="/contact">Contact Us</Link>
         </li>
       </ul>

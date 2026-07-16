@@ -12,6 +12,7 @@ import AboutCube from "./pages/about";
 import Champions from "./pages/champions";
 import CubeHardware from "./pages/cubehardware";
 import Popular from "./pages/popular";
+import Contact from "./pages/contact";
 
 const HomePage = () => {
   return (
@@ -42,6 +43,7 @@ const App = () => {
       <Route path="/champions" element={<Champions />} />
       <Route path="/cubehardware" element={<CubeHardware />} />
       <Route path="/popular" element={<Popular />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   );
 };

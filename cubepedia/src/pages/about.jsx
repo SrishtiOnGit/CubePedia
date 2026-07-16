@@ -34,9 +34,7 @@ const AboutCube = () => {
           <li>
             <Link to="/popular">Popular Cubes</Link>
           </li>
-          <li>
-            <Link to="/algorithm">Algorithm library</Link>
-          </li>
+
           <li>
             {" "}
             <Link to="/contact">Contact Us</Link>
